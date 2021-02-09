@@ -11,21 +11,31 @@ print(a*5)
 s = input ("введите слово")
 p=s[::-1]
 print (p)
+
+9.46
+s = "-"
+print (s*8)
  
  9.47
 wh=int(input("Введите число"))
 aim=input("Введите символ")
 print(wh*aim)
-
+ 
 9.48
-b1= input("Введите слово")
-print (4*"+", b1, 5*"-")
+vl=input("введите слово")
+print("+"*4,vl,5*"_")
 
 9.49
 word= input("Введите слово")
 e=len(word)
 print ("*" * e)
 
+9.52
+k = input("введите предложение").split()
+a = input("")
+for i in range(len(k)):
+    if a in k[i]:
+        print(k[i])
 9.59
 s = input("Введите слово")
 ng= "о"
@@ -42,7 +52,7 @@ a = b.split()
 print("найдено слов", len(a))
 
 9.67
-sent=  input ("Введите предложение")
+sent= input ("Введите предложение")
 a = sent.split()
 print("найдено слов", len(a))
 
