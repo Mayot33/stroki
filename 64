@@ -1,0 +1,27 @@
+64 a
+slovo=input()
+def slovo (a):
+   s1= []
+   s1= a.split()
+s=input()
+print (slovo(s))
+
+64 b
+name = input()
+rash = input()
+
+if name.count (".")>0:
+    name1 = name [:name.rfind(".")] + "." + rash
+else:
+        name1 = name + "." + rash
+print (name1)
+
+6 4c
+def rim(s):
+    #словарь
+    alf = ['I_1', 'V_5', 'X_10', 'L_50', 'C_100', 'D_500', 'M_1000']
+    for i in range (len(s)-1):
+       c1 = s[i]
+        for j in alf:
+            if j[0] ==  c1:
+                c1 = j[2:]
